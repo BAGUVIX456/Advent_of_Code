@@ -1,4 +1,4 @@
-path = 'C:/Users/Gumbi/Desktop/Dhanvith Files/AoC_1.txt'
+path = '--<insert file location here>--'
 input_file = open(path, 'r')
 
 count = 0
