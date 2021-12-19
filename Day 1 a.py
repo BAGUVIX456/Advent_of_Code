@@ -1,4 +1,4 @@
-path = "C:/Users/Gumbi/Desktop/Dhanvith Files/AoC_1.txt"     #specifies path of input file
+path = "--<insert complete file location>--"     #specifies path of input file
 input_file = open(path, 'r')      #opens the input file
 
 count = 0
