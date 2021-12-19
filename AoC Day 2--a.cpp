@@ -23,7 +23,7 @@ int extractInteger(string a) {
 
 int main() {
 	int horizontal = 0, depth = 0;
-	ifstream InputFile("C:/Users/Gumbi/Desktop/Dhanvith Files/AoC Day 2 input.txt");
+	ifstream InputFile("--<insert file location here>--");
 	string inputText;
 
 	while (getline(InputFile, inputText)) {
