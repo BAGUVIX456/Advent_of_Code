@@ -3,7 +3,7 @@
 
 import math
 
-path = "C:/Users/Gumbi/Desktop/Dhanvith Files/Day 3.txt"   
+path = "--<text file location>--"   
 gamma_rate = ""
 
 def onesComp (num):     #just a standalone function to find the 1's complement of a decimal
