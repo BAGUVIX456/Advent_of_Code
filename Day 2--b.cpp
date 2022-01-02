@@ -1,4 +1,5 @@
-//the second part of the puzzle for Day 2
+// Advent Of Code 2021 - Day 2 , Puzzle 2
+
 #include <iostream>
 #include<fstream>
 #include<string>
