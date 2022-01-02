@@ -1,3 +1,5 @@
+# Advent Of Code 2021 - Day 1 , Puzzle 2
+
 path = '--<insert file location here>--'
 input_file = open(path, 'r')
 
