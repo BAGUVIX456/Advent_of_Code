@@ -1,4 +1,5 @@
-//a program to help the christmas elves guide their submarine
+// Advent Of Code - Day 2 , Puzzle 1
+
 #include <iostream>
 #include<fstream>
 #include<string>
