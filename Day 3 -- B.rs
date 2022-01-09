@@ -4,9 +4,9 @@ use std::io::{BufRead, BufReader};
 use std::fs::File;
 use::binary_ok;
 
-// This is a function to find the most common digit in a given position of the vector elements
+// This is a function to find the most common digit in a given column of the vector
 fn most_common_digit (vector : &Vec<String>, pos: usize) -> &str {
-    // This variable is incremented if 1 is found as the column element, else decremented
+    // This variable is incremented if 1 is found as the column element, else decremented by 1
     let mut count = 0;
 
     for line in vector {
@@ -34,7 +34,7 @@ fn most_common_digit (vector : &Vec<String>, pos: usize) -> &str {
   CO2 scrubber rating.
 */
 fn generator_rating (gen_type: usize) -> u128 {
-    let path = File::open("C:/Users/Gumbi/Desktop/Dhanvith Files/Day 3.txt").unwrap();  //this comment for you dumbass, remove file path from this sketch
+    let path = File::open("--<complete text file location here>--").unwrap(); 
     let input_file = BufReader::new(path); 
 
     // This vector will contain all of the input values after reading from the file
