@@ -27,14 +27,18 @@ int main() {
 	ifstream InputFile("--<insert file location here>--");
 	string inputText;
 
+	// input block from here on
 	while (getline(InputFile, inputText)) {
+		// this char array is to extract the first letter, which gives the instructions on how the submarine should move
 		char txt[30];
+		// divide inputText into individual characters and push into array
 		strcpy_s(txt, inputText.c_str());
 		int val;
 		val = extractInteger(inputText);
 
 		cout << txt[0] << " " << val << endl;
 
+		
 		if (txt[0] == 'f') {
 			horizontal += val;
 		}
