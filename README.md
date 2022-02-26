@@ -7,4 +7,4 @@ i. Python -> Day 1, Day 3--A
 
 ii. C++  -> Day 2
 
-iii. Rust -> Day 3--B
+iii. Rust -> Day 3--B, Day 4--A
