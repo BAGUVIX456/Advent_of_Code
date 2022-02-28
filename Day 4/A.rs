@@ -96,7 +96,7 @@ impl Operations for Vec<Bongo> {
         // row check
         if checking_type == 1 {
 
-            'A: for table_pos in 0..self.len() {
+            'a: for table_pos in 0..self.len() {
                 for row in 0..5 {
                     checker = 0;
                     for col in 0..5 {
@@ -106,7 +106,7 @@ impl Operations for Vec<Bongo> {
                     if checker == 0 {
                         winning_table = table_pos;
                         complete_status = true;
-                        break 'A;
+                        break 'a;
                     }
                 }
             }
@@ -122,7 +122,7 @@ impl Operations for Vec<Bongo> {
         // column check
         else {
 
-         'B:for table_pos in 0..self.len() {
+         'b:for table_pos in 0..self.len() {
                 for col in 0..5 {
                     checker = 0;
                     for row in 0..5 {
@@ -132,7 +132,7 @@ impl Operations for Vec<Bongo> {
                     if checker == 0 {
                         winning_table = table_pos;
                         complete_status = true;
-                        break 'B;
+                        break 'b;
                     }
                 }
             }
@@ -162,7 +162,7 @@ impl Operations for Vec<Bongo> {
 
 
 // to merge two characters into a single i32 number
-fn merge_chars (input_line: &String, pos: usize) -> i32 {
+fn merge_chars (input_line: &str, pos: usize) -> i32 {
     let tens = &input_line[pos..pos+1];
     let units = &input_line[pos+1..pos+2];
 
