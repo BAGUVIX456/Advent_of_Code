@@ -21,8 +21,8 @@ impl Operations for Vec<Bongo> {
     // just in case you want to print the bingo tables
     fn print(&self) {
         for tables in self {
-            for row in 0..5 {
-                println!("{:?}", tables.table[row]);
+            for row in &tables.table {
+                println!("{:?}", row);
             }
             println!();
         }
@@ -31,7 +31,7 @@ impl Operations for Vec<Bongo> {
     fn play_game(&mut self) -> usize {
         let mut return_val = 0;
         let mut affirmation = false;
-        let for_cancel = [--<replace values to be cancelled from the tables here>--];
+        let for_cancel = [--<replace values to be cancelled here>--];
       
         for cancel_val in for_cancel { 
             println!("cancel value is: {}", cancel_val);
