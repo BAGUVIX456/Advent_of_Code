@@ -3,8 +3,8 @@ This has all my solution programs for Advent of Code 2021 (still a work in progr
 
 These are the programming languages I used in my solutions: 
 
-i. Python -> Day 1, Day 3--A
+i. Python -> Day 1, Day 3/A
 
 ii. C++  -> Day 2
 
-iii. Rust -> Day 3--B, Day 4
+iii. Rust -> Day 3/B, Day 4
